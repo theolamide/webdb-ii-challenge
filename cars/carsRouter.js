@@ -55,6 +55,8 @@ router.post('/', (req, res) => {
     });
 });
 
+
+//Stretch 1
 router.put("/:id", (req, res) => {
     const { id } = req.params;
     const changes = req.body;
@@ -73,6 +75,8 @@ router.put("/:id", (req, res) => {
     });
 });
 
+
+//Stretch 2
 router.delete("/:id", (req, res) => {
     const { id } = req.params;
     db('cars')
